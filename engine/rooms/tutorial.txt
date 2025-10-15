@@ -1,0 +1,98 @@
+block room_data
+	cameraX 0
+	cameraY 0
+	cameraWidth 816
+	cameraHeight 624
+	cameraRotation 0
+	backgroundColour 0
+	rpgRoom 8
+	rpgCollider InvisibleWall
+	rpgIgnoreEmptyTiles 0
+	rpgColliderOriginX 0
+	rpgColliderOriginY 0
+endblock
+
+block instances
+	TutorialHandler 0 0 0 0 1 1
+	PlayerInstance 168 120 0 0 1 1
+	Global -72 -72 0 0 1 1
+	SemiSolid 288 216 0 0 12 1
+	SemiSolid 192 409 0 0 2 1.0500000000000096
+	InvisibleWall 0 0 0 0 1 36
+	SemiSolid 480 1032 0 0 6 1
+	InvisibleWall 0 0 0 0 1 8
+	VineBlock 2304 1392 0 0 1 1
+	VineBlock 2304 1440 0 0 1 1
+	VineBlock 2304 1488 0 0 1 1
+	VineBlock 2304 1536 0 0 1 1
+	VineBlock 2304 1632 0 0 1 1
+	VineBlock 2304 1584 0 0 1 1
+	VineBlock 2304 1680 0 0 1 1
+	VineBlock 2352 1392 0 0 1 1
+	VineBlock 2352 1440 0 0 1 1
+	VineBlock 2352 1488 0 0 1 1
+	VineBlock 2352 1584 0 0 1 1
+	VineBlock 2352 1536 0 0 1 1
+	VineBlock 2256 1344 0 0 1 1
+	VineBlock 2256 1392 0 0 1 1
+	VineBlock 2256 1440 0 0 1 1
+	VineBlock 2256 1536 0 0 1 1
+	VineBlock 2256 1488 0 0 1 1
+	VineBlock 2256 1584 0 0 1 1
+	VineBlock 2256 1632 0 0 1 1
+	Artifact 1560 1656 0 0 1 1
+	GrassCreate 384 1752 0 0 16 1
+	GrassCreate 2040 1752 0 0 35 1
+	GrassCreate 888 1752 0 0 3 1
+	GrassCreate 1080 1752 0 0 3 1
+	ArtifactText 984 408 0 0 1 1
+	Proceed 2760 1752 0 0 1 1
+	Counter 888 120 0 0 1 1
+	LeafCreate -72 504 0 0 1 1
+	SemiSolid 384 409 0 0 2 1.0500000000000096
+	SemiSolid 432 552 0 0 2 0.9999999999999997
+	SemiSolid 144 552 0 0 2 0.9999999999999997
+	SemiSolid 192 696 0 0 2 0.9999999999999997
+	SemiSolid 384 696 0 0 2 0.9999999999999997
+	SemiSolid 48 792 0 0 2 0.9999999999999997
+	SemiSolid 528 792 0 0 2 0.9999999999999997
+	SemiSolid 120 1032 0 0 5 0.9999999999999997
+	SemiSolid 384 1224 0 0 2 0.9999999999999997
+	SemiSolid 192 1224 0 0 2 0.9999999999999997
+	SemiSolid 144 1368 0 0 2 0.9999999999999997
+	SemiSolid 432 1368 0 0 2 0.9999999999999997
+	SemiSolid 192 1512 0 0 2 0.9999999999999997
+	SemiSolid 384 1512 0 0 2 0.9999999999999997
+	SemiSolid 48 1608 0 0 2 0.9999999999999997
+	SemiSolid 528 1608 0 0 2 0.9999999999999997
+	Checkpoint 504 168 0 0 1 1
+	Checkpoint 408 360 0 0 1 1
+	Checkpoint 168 504 0 0 1 1
+	Checkpoint 216 360 0 0 1 1
+	Checkpoint 456 504 0 0 1 1
+	Checkpoint 216 648 0 0 1 1
+	Checkpoint 408 648 0 0 1 1
+	Checkpoint 552 744 0 0 1 1
+	Checkpoint 72 744 0 0 1 1
+	Checkpoint 120 984 0 0 1 1
+	Checkpoint 456 984 0 0 1 1
+	Checkpoint 408 1176 0 0 1 1
+	Checkpoint 216 1176 0 0 1 1
+	Checkpoint 456 1320 0 0 1 1
+	Checkpoint 168 1320 0 0 1 1
+	Checkpoint 408 1464 0 0 1 1
+	Checkpoint 216 1464 0 0 1 1
+	Checkpoint 552 1560 0 0 1 1
+	Checkpoint 72 1560 0 0 1 1
+	Checkpoint 552 1752 0 0 1 1
+	Checkpoint 984 1656 0 0 1 1
+	Checkpoint 1176 1560 0 0 1 1
+	Checkpoint 1560 1656 0 0 1 1
+	Checkpoint 1992 1752 0 0 1 1
+endblock
+
+block extern Music
+BackgroundMusic_Tutorial
+0.03
+endblock
+

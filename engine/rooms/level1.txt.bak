@@ -1,0 +1,170 @@
+block room_data
+	cameraX 0
+	cameraY 0
+	cameraWidth 816
+	cameraHeight 624
+	cameraRotation 0
+	backgroundColour 0
+	rpgRoom 4
+	rpgCollider InvisibleWall
+	rpgIgnoreEmptyTiles 0
+	rpgColliderOriginX 0
+	rpgColliderOriginY 0
+endblock
+
+block instances
+	ArtifactText -120 120 0 0 1 1
+	Proceed 120 -72 0 0 1 1
+	Counter 24 -72 0 0 1 1
+	Global -72 -72 0 0 1 1
+	Level1Handler 0 0 0 0 1 1
+	PlayerInstance 1032 -120 0 0 1 1
+	SemiSolid 2352 2424 0 0 2 1
+	Enemy 552 2304 0 0 1 1
+	Global -120 0 0 0 1 1
+	Artifact 504 1992 0 0 1 1
+	Enemy 792 2256 0 0 1 1
+	Enemy 1560 2304 0 0 1 1
+	Enemy 1704 2304 0 0 1 1
+	Spikes 3144 2616 0 0 1 1
+	Spikes 3576 2712 0 0 1 1
+	Spikes 3096 3480 0 0 1 1
+	Spikes 3192 2616 0 0 1 1
+	Spikes 3240 2616 0 0 1 1
+	Spikes 3288 2616 0 0 1 1
+	Spikes 3336 2616 0 0 1 1
+	Spikes 3384 2616 0 0 1 1
+	Spikes 3432 2616 0 0 1 1
+	Spikes 3480 2616 0 0 1 1
+	Spikes 3528 2616 0 0 1 1
+	Spikes 3624 2712 0 0 1 1
+	Spikes 3672 2712 0 0 1 1
+	Spikes 3720 2712 0 0 1 1
+	Spikes 3768 2712 0 0 1 1
+	Spikes 3816 2712 0 0 1 1
+	Spikes 3864 2712 0 0 1 1
+	Spikes 3912 2712 0 0 1 1
+	Spikes 3960 2712 0 0 1 1
+	Spikes 4008 2712 0 0 1 1
+	Spikes 4056 2712 0 0 1 1
+	Spikes 4104 2712 0 0 1 1
+	Spikes 4152 2712 0 0 1 1
+	Spikes 4200 2712 0 0 1 1
+	Spikes 3144 3480 0 0 1 1
+	Spikes 3192 3480 0 0 1 1
+	Spikes 3240 3480 0 0 1 1
+	Spikes 3288 3480 0 0 1 1
+	Spikes 3336 3480 0 0 1 1
+	Spikes 3384 3480 0 0 1 1
+	Spikes 3432 3480 0 0 1 1
+	Spikes 3624 3480 0 0 1 1
+	Spikes 3672 3480 0 0 1 1
+	Spikes 3720 3480 0 0 1 1
+	Spikes 3768 3480 0 0 1 1
+	Spikes 3816 3480 0 0 1 1
+	Spikes 3864 3480 0 0 1 1
+	Spikes 3912 3480 0 0 1 1
+	Spikes 3960 3480 0 0 1 1
+	Spikes 4008 3480 0 0 1 1
+	Artifact 2760 2808 0 0 0.9999999999999998 1
+	Enemy 2334 2496 0 0 1 1
+	Enemy 2424 2496 0 0 1 1
+	Enemy 2472 2496 0 0 1 1
+	Enemy 2376 2496 0 0 1 1
+	VineBlock 3264 2016 0 0 1 1
+	VineBlock 3264 2064 0 0 1 1
+	VineBlock 3264 2112 0 0 1 1
+	VineBlock 3264 2160 0 0 1 1
+	VineBlock 3264 2256 0 0 1 1
+	VineBlock 3264 2208 0 0 1 1
+	BoulderBlock 3288 2328 0 0 1 1
+	VineBlock 3696 2160 0 0 1 1
+	VineBlock 3696 2208 0 0 1 1
+	VineBlock 3696 2256 0 0 1 1
+	VineBlock 3696 2304 0 0 1 1
+	VineBlock 3696 2400 0 0 1 1
+	VineBlock 3696 2352 0 0 1 1
+	BoulderBlock 3720 2472 0 0 1 1
+	VineBlock 3456 2160 0 0 1 1
+	VineBlock 3456 2208 0 0 1 1
+	VineBlock 3456 2304 0 0 1 1
+	VineBlock 3456 2256 0 0 1 1
+	BoulderBlock 3480 2376 0 0 1 1
+	VineBlock 3936 2256 0 0 1 1
+	VineBlock 3936 2304 0 0 1 1
+	VineBlock 3936 2352 0 0 1 1
+	VineBlock 3936 2400 0 0 1 1
+	VineBlock 3936 2496 0 0 1 1
+	VineBlock 3936 2448 0 0 1 1
+	BoulderBlock 3960 2568 0 0 1 1
+	VineBlock 4128 2256 0 0 1 1
+	VineBlock 4128 2304 0 0 1 1
+	VineBlock 4128 2352 0 0 1 1
+	VineBlock 4128 2400 0 0 1 1
+	VineBlock 4128 2496 0 0 1 1
+	VineBlock 4128 2448 0 0 1 1
+	BoulderBlock 4152 2568 0 0 1 1
+	Artifact 2424 3672 0 0 0.9999999999999998 1
+	Artifact 6792 3864 0 0 0.9999999999999991 1
+	Enemy 4824 4368 0 0 1 1
+	Enemy 4680 4368 0 0 1 1
+	Enemy 3192 4320 0 0 1 1
+	Enemy 6288 4224 0 0 1 1
+	Spikes 6744 4056 0 0 1 1
+	Spikes 6792 4056 0 0 1 1
+	Spikes 6840 4056 0 0 1 1
+	Enemy 6552 3120 0 0 1 1
+	Enemy 6360 3120 0 0 1 1
+	Enemy 6072 2832 0 0 1 1
+	Enemy 5712 3552 0 0 1 1
+	Enemy 5544 2496 0 0 1 1
+	Enemy 5976 2256 0 0 1 1
+	Artifact 6504 1896 0 0 0.9999999999999991 1
+	Enemy 6312 2016 0 0 1 1
+	Enemy 6408 2016 0 0 1 1
+	Enemy 6504 2016 0 0 1 1
+	Enemy 5688 1776 0 0 1 1
+	SemiSolid 4464 2760 0 0 6 1
+	SemiSolid 4344 2904 0 0 5 1
+	SemiSolid 4512 3096 0 0 4 1
+	SemiSolid 5760 4152 0 0 6 1
+	SemiSolid 6072 3768 0 0 7 1
+	SemiSolid 5712 3576 0 0 4 1
+	SemiSolid 5832 3336 0 0 5 1
+	SemiSolid 6000 3048 0 0 4 1
+	SemiSolid 6096 2856 0 0 4 1
+	SemiSolid 6168 2664 0 0 3 1
+	SemiSolid 5808 2568 0 0 4 1
+	SemiSolid 5952 2280 0 0 6 1
+	SemiSolid 6144 2088 0 0 4 1
+	SemiSolid 5736 1992 0 0 3 1
+	SemiSolid 5472 1704 0 0 4 1
+	SemiSolid 5617 1608 0 0 6.069840686696239 1
+	SemiSolid 6264 1416 0 0 5 1
+	SemiSolid 6456 1320 0 0 7 1
+	Spikes 2520 2616 0 0 1 1
+	Spikes 2568 2616 0 0 1 1
+	SemiSolid 2712 4008 0 0 3 -1
+	SemiSolid 2784 4296 0 0 8 -1
+	SemiSolid 2736 3864 0 0 2 -1
+	SemiSolid 2736 3720 0 0 2 -1
+	Checkpoint 888 2136 0 0 1 1
+	Checkpoint 1272 2136 0 0 1 1
+	Checkpoint 2352 2376 0 0 1 1
+	Checkpoint 3096 2424 0 0 1 3
+	Checkpoint 4056 3384 0 0 1 1
+	Checkpoint 3000 3384 0 0 1 1
+	Checkpoint 3912 4344 0 0 1 1
+	Checkpoint 5640 4344 0 0 1 1
+	Checkpoint 5592 3480 0 0 1 1
+	Checkpoint 5688 2472 0 0 1 1
+	Checkpoint 5784 1512 0 0 1 1
+	Checkpoint 6696 3816 0 0 1 1
+	SemiSolid 5688 1800 0 0 3 1
+endblock
+
+block extern Music
+BackgroundMusic_Level1
+0.03
+endblock
+

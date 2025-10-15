@@ -1,0 +1,1 @@
+class SolidObject extends EngineInstance {}

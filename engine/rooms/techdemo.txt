@@ -1,0 +1,15 @@
+block instances
+	TechDemoHandler 0 0 0 0 1 1
+	PlayerInstance 50 400 0 0 1 1
+
+	SemiSolid 16 9 0 0 5 1
+	SemiSolid 18 7 0 0 3 1
+	SemiSolid 22 6 0 0 2 1
+	SemiSolid 22 4 0 0 7 1
+	SemiSolid 30 5 0 0 5 1
+endblock
+
+block room_data
+	rpgCollider InvisibleWall
+	rpgRoom 2
+endblock
